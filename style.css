@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(beach.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center ;
+}
+ul
+{   
+    float:right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+
+ul li
+{
+    display:inline-block;
+   
+}
+
+ul li a
+{
+    text-decoration:none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: .7s;
+}
+
+ul li a:hover
+{
+    background-color: #fff;
+    color:#000;
+    
+}
+.logo img{
+    width:150px;
+    height:auto;
+    display: inline;
+    float:left;
+}
+.main{
+    max-width: 1200px;
+    margin:0px 30px;
+    padding: 0px 25px;
+}
+
+ul li.active a
+{
+    background-color: #fff;
+    color:#000;
+}
+
+.title
+{ 
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 280px;
+    left: 200px;
+    font-size: 30px;
+}
+
+.button 
+{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    left:-20px;
+    font-size: 30px;   
+}
+
+.btn{
+
+    text-decoration:none;
+    color:#fff;
+    padding: 0px 20px;
+    margin: 0px 10px;
+    border: 1px solid #fff;
+    transition: .7s;
+
+}
+
+ .btn:hover
+{
+    background-color: #fff;
+    color:#000;
+}
